@@ -631,11 +631,11 @@ a.button-send:hover, a.button-send:active {
 }
 .book-grid-3 {
   display: grid;
-  grid-template-columns: repeat(4, 215px);
-  grid-template-rows:  repeat(2, 340px);
+  grid-template-columns: 215px;
+  grid-template-rows: 340px;
   grid-row-gap: 35px;
   grid-column-gap: 10px;
-  justify-content: space-evenly;
+  justify-content: center;
   justify-items: center;
 }
 .book-grid-3-hidden {
@@ -643,11 +643,11 @@ a.button-send:hover, a.button-send:active {
   width: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(4, 215px);
-  grid-template-rows:  repeat(2, 340px);
+  grid-template-columns: 215px;
+  grid-template-rows: 340px;
   grid-row-gap: 35px;
   grid-column-gap: 10px;
-  justify-content: space-evenly;
+  justify-content: center;
   justify-items: center;
 }
 .book-section-1 {
