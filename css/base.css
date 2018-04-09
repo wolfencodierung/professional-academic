@@ -39,7 +39,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 25px 0 85px 0;
+  margin: 60px 0 0px 0;
   padding: 0;
   line-height: 28px;
 }
@@ -364,6 +364,12 @@ a.button-send:hover, a.button-send:active {
 }
 
 /* Miscelaneous Structural Elements */
+.nav-separator-bar {
+  margin: 30px 0px 80px 0px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(221, 221, 221, 0), rgba(153, 153, 153, 0.75), rgba(221, 221, 221, 0));
+}
 .separator {
   margin: 70px 0px 70px 0px;
   border: 0;
